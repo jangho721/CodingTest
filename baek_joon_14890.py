@@ -27,9 +27,9 @@ def possible_path(line):
 
         # 현재 > 이전, 경사로를 만들기 위해 왼쪽 스캔
         elif line[j] - line[j - 1] == 1:
+            # l 만큼 경사로 너비 필요
             for k in range(l):
                 # 범위 넘어감 or 이미 설치함 or 낮은 곳의 높이가 다른 경우
-
                 if j - k - 1 < 0 or line[j - 1] != line[j - k - 1] or used[j - k - 1]:
                     return False
 
