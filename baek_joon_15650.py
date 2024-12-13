@@ -34,7 +34,7 @@ def Backtraking(start):
         if i not in nlist:
             nlist.append(i)
             Backtraking(i + 1)
-            # 마지막 원소 return
+            # Last element remove
             nlist.pop()
 
 
