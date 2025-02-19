@@ -8,7 +8,8 @@
 
 -- JOIN ON
 
--- SUBSTR: Extract a substring from a string
+-- SUBSTR
+-- Extract a substring from a string
 
 SELECT A.TITLE
        , B.BOARD_ID
